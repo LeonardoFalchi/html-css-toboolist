@@ -2,4 +2,14 @@
 
 body {
     background-color: #f6f8fa;
+    margin: 0;
+    
+}
+
+/* main header */
+
+#main-header {
+    background-color: white;
+    height: 100px;
+    max-width: 100%;
 }
