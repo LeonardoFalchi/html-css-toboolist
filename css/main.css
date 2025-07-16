@@ -1,47 +1,31 @@
 /* regole generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+/* regole body */
 body {
     background-color: #f6f8fa;
-    margin: 0;
-    padding: o;
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* main header */
 
-#main-header {
-    background-color: white;
+header {
     height: 100px;
-    max-width: 100%;
+    background-color: white;
     
-    
-
 }
 
 #logo {
     height: 70px;
-    margin-left: 20px;
-    margin-top: 15px;   
+    vertical-align: middle;
 }
 
 #logo-text {
     font-size: 50px;
     font-weight: bold;
-    margin-left: 15px;
+    
 }
-/* main container */
-
-#main-container {
-    background-color: white;
-    margin: auto;
-    margin-top: 40px;
-    width:80%;
-    height: 450px
-}
-
-#interaction-section { 
-}
-
-
-
