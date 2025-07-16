@@ -31,3 +31,45 @@ header {
     font-weight: bold;
     vertical-align: middle;
 }
+
+/* contenitore principale */
+#contenitore-principale {
+    height: 400px;
+    background-color: white;
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+
+/*sezione interazione */
+.contenitore-pulsanti {
+    padding: 10px 35px;
+}
+
+#button1 {
+    background-color: #43aef3 ;
+    border: solid 1px;
+    border-color: #ccccca;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: white;
+}
+
+#button2 {
+    background-color: white;
+    border: solid 1px;
+    border-color: #ccccca;
+    border-radius: 5px;
+    padding: 5px 8px;
+    color: #ccccca;
+}
+
+#linea {
+    border: 0;
+    height: 1px;
+    background-color: #f6f8fa;
+}
+
+
