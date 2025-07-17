@@ -3,16 +3,20 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
 }
 
 /* regole body */
+
 body {
     background-color: #f6f8fa;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    height: 100%;
-
 }
 
 /* main header */
@@ -40,6 +44,7 @@ header {
 #contenitore-principale {
     background-color: white;
     width: 58%;
+    height: 90%;
     margin: 0 auto;
     border-radius: 5px;
     margin-top: 30px;
@@ -48,12 +53,12 @@ header {
 }
 
 
-/*sezione interazione */
+/* sezione interazione */
 .contenitore-pulsanti {
     padding: 10px 35px;
 }
 
-#button1 {
+#button-task {
     background-color: #43aef3 ;
     border: solid 1px;
     border-color: #ccccca;
@@ -62,7 +67,7 @@ header {
     color: white;
 }
 
-#button2 {
+#button-section {
     background-color: white;
     border: solid 1px;
     border-color: #ccccca;
@@ -153,4 +158,3 @@ li {
     border-radius: 12px;
     font-size: 10px;
 }
-
