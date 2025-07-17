@@ -1,14 +1,18 @@
 /* regole generali */
 * {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* regole body */
 body {
     background-color: #f6f8fa;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
 }
 
 /* main header */
@@ -34,12 +38,13 @@ header {
 
 /* contenitore principale */
 #contenitore-principale {
-    height: 400px;
     background-color: white;
-    width: 500px;
-    margin: auto;
+    width: 58%;
+    margin: 0 auto;
     border-radius: 5px;
     margin-top: 30px;
+    padding-bottom: 30px;
+    min-height: 100%;
 }
 
 
@@ -72,4 +77,80 @@ header {
     background-color: #f6f8fa;
 }
 
+/* sezione task */
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+ul {
+    margin-left: 35px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.checkmark {
+    height: 20px;
+}
+
+.crossmark {
+    height: 20px;
+}
+
+.label-editorial {
+    border:solid 1px;
+    color: white;
+    background-color: #43aef3;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.label-goals {
+    border:solid 1px;
+    color: white;
+    background-color: blueviolet;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.label-recruiting {
+    border:solid 1px;
+    color: white;
+    background-color: #5ec6a9;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.label-mobile {
+    border:solid 1px;
+    color: white;
+    background-color: darkorange;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.label-website {
+    border:solid 1px;
+    color: white;
+    background-color: #d665a3;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+}
+
+.label-sales {
+    border:solid 1px;
+    color: white;
+    background-color: #b0cc21;
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 10px;
+}
 
